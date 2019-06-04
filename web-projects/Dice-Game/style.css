@@ -1,0 +1,58 @@
+body {
+  background-color: #393E46;
+}
+
+#title {
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+  margin: 10px;
+  color: #4ECCA3;
+  text-shadow: 5px 0 #232931;
+}
+
+.container {
+  text-align: center;
+}
+
+.player {
+  display: inline-block;
+  padding: 1% 7% 7%;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+}
+.btn{
+  background-color: #393E46;
+  border-radius: 5px;
+  color: #4ECCA3;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  margin: auto;
+  padding: 1% 3%;
+  display: block;
+  position: relative;
+  bottom: 40px;
+  border-color: #4ECCA3;
+  border-width: 5px;
+}
+.btn-two{
+  background-color: #393E46;
+  border-radius: 5px;
+  color: #4ECCA3;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  margin: auto;
+  padding: 1% 3%;
+  display: block;
+  position: relative;
+  bottom: 10px;
+  border-color: #4ECCA3;
+  border-width: 5px;
+}
+
+footer h3 {
+  font-family: 'Lobster', cursive;
+  color: #4ecca3;
+}

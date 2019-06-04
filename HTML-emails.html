@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>HTML emails</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- style sheet -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600i,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Lobster&display=swap" rel="stylesheet">
+
+  <!-- javascript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <section id="nav-section">
+
+    <nav class="navbar navbar-expand-lg">
+
+      <a class="navbar-brand" href="#">Cameron McBride</a>
+
+      <!-- <img class="my-logo" src="images/Personal-Logo.png" /> -->
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <div class="bar-one">
+        </div>
+        <div class="bar-two">
+        </div>
+        <div class="bar-three">
+        </div>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about-me">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#contact-me">Contact me</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </nav>
+  </section>
+  <!-- Navigation end -->
+
+  <!-- Hero -->
+  <section id="hero-email">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <h1>HTML emails</h1>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Hero end -->
+
+  <!-- html-emails projects -->
+  <section id="html-emails-projects">
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-lg-6">
+
+          <div class="card">
+
+            <div class="card-body">
+
+              <div class="card-title">
+                <h4>Monthly News Letter template</h4>
+              </div>
+
+              <div class="card-text">
+                <p>I created this template using the MJML Framework. This template is used for monthly updates on the Shepherd Center.</p>
+              </div>
+
+              <button type="button" class="btn monthly" data-toggle="modal" data-target="#desktopMonthly">
+                Click here to view
+              </button>
+
+              <div class="modal hide fade" id="desktopMonthly" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="desktopMonthly">Monthly News-Letter</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <iframe class="embed-responsive-item" src="/Users/cameronmcbride/Documents/Atom coding folder/Emails/Abi-news-letter.html" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn monthly" data-toggle="modal" data-dismiss="modal" data-target="#mobileMonthly">
+                        Click here for Mobile
+                      </button>
+                      <button type="button" class="btn monthly" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal hide fade" id="mobileMonthly" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="mobileMonthly">Monthly News-Letter</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="embed-responsive embed-responsive-4by3 z-depth-1-half">
+                        <iframe class="embed-responsive-item" src="/Users/cameronmcbride/Documents/Atom coding folder/Emails/Abi-news-letter.html"></iframe>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn monthly" data-toggle="modal" data-dismiss="modal" data-target="#desktopMonthly">
+                        Click here for Desktop
+                      </button>
+                      <button type="button" class="btn monthly" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+
+          <div class="card">
+
+            <div class="card-body">
+
+              <div class="card-title">
+                <h4>Webinar educational newsletter</h4>
+              </div>
+
+              <div class="card-text">
+                <p>I created this template using the MJML Framework. This template is used for upcoming webinar classes.</p>
+              </div>
+
+              <button class="btn webinar" data-toggle="modal" data-target="#desktopWebinar">Click here to view</button>
+
+              <div class="modal hide fade" id="desktopWebinar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="desktopWebinar">Webinar News-Letter</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <iframe class="embed-responsive-item" src="/Users/cameronmcbride/Documents/Atom coding folder/Emails/MS-webinar.html"></iframe>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn webinar" data-dismiss="modal" data-toggle="modal" data-target="#mobileWebinar">Click here for mobile</button>
+                      <button type="button" class="btn webinar" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal hide fade" id="mobileWebinar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="mobileWebinar">Webinar News-Letter</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <iframe class="embed-responsive-item" src="/Users/cameronmcbride/Documents/Atom coding folder/Emails/MS-webinar.html"></iframe>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn webinar" data-dismiss="modal" data-toggle="modal" data-target="#desktopWebinar">Click here for desktop</button>
+                      <button type="button" class="btn webinar" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- html projects end -->
+</body>
+<script src="index.js"></script>
+</html>

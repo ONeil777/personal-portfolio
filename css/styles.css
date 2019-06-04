@@ -1,0 +1,411 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav bar */
+.navbar {
+  /* background-color: #103c42; */
+  background-color: #05a19c;
+  padding: 3% 4%;
+}
+
+.my-logo {
+  margin: auto 35px;
+}
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+/* Hamburger */
+.bar-one, .bar-two, .bar-three {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0px;
+}
+
+.nav-item {
+  padding: 0px 15px;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  height: 100%;
+}
+
+.nav-link:hover {
+  color: #05a19c;
+  background-color: #eaf5ff;
+  border-radius: 5px;
+}
+
+/* My logo */
+.my-logo {
+  width: 250px;
+}
+
+#hero-index {
+  background-color: #05a19c;
+  text-align: center;
+  padding: 5% 7% 0%;
+}
+
+#hero-index h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  text-shadow: #103c42 2px 2px 3px;
+  font-weight: bold;
+}
+
+#hero-index img {
+  padding-top: -20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+#about-me {
+  padding: 3% 1%;
+}
+
+#about-me h1 {
+  color: #05a19c;
+  margin-bottom: 30px;
+  text-shadow: #103c42 2px 2px 3px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#about-me h3 {
+  color: #05a19c;
+}
+
+.my-photo {
+  border: solid #05a19c 10px;
+  border-radius: 100%;
+  width: 350px;
+  float: left;
+  margin-right: 45px;
+  display: block;
+}
+
+.my-info {
+  padding: 2% 5%;
+}
+
+#projects {
+  background-color: #05a19c;
+  padding: 2% 5%;
+}
+
+#projects h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  text-shadow: #103c42 2px 2px 3px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#html-emails-projects {
+  padding: 2% 10%;
+}
+
+.card {
+  margin: auto;
+  padding: auto;
+  height: 100%;
+}
+
+.card-title h4 {
+  color: #05a19c;
+  font-weight: bold;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body .btn {
+  margin-top: auto;
+  font-weight: bold;
+}
+
+.html-emails {
+  border-radius: 10px;
+  background-color: #05586d;
+  border: 0px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.html-emails img {
+  width: 250px;
+  margin: auto;
+}
+
+.html-emails .card-body {
+  background-color: #fff;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.card-btn {
+  border: #103c42 solid 1px;
+  background-color: #05a19c;
+  color: #fff;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.monthly, .webinar {
+  border: #103c42 solid 1px;
+  background-color: #05a19c;
+  color: #fff;
+  width: 200px;
+}
+
+.graphic-design {
+  border-radius: 10px;
+  background-color: #05586d;
+  border: 0px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.graphic-design .card-body {
+  background-color: #fff;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.graphic-design img {
+  width: 250px;
+  margin: auto;
+}
+
+.web-projects {
+  border-radius: 10px;
+  background-color: #05586d;
+  border: 0px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.web-projects img {
+  width: 250px;
+  margin: auto;
+}
+
+.web-projects .card-body {
+  background-color: #fff;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+#project-collapse .card {
+  margin: 20px auto;
+}
+
+.html-email-header, .html-email-header h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #05a19c;
+  text-shadow: #103c42 2px 2px 3px;
+}
+
+.modal-dialog {
+  height: 95%;
+}
+
+.modal-content {
+  height: 95%;
+}
+
+.modal-email {
+  height: 95%;
+}
+
+#accordionExample {
+  margin: 30px auto;
+}
+
+#accordionExample .card {
+  margin: 0;
+}
+
+.btn-link {
+  font-weight: bold;
+  color: #05a19c;
+}
+
+.banner-icon {
+  background-color: #05a19c;
+  width: 5%;
+  height: 25%;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.flyer-icon {
+  background-color: #05a19c;
+  width: 5%;
+  height: 15%;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.poster-icon {
+  background-color: #05a19c;
+  width: 5%;
+  height: 14%;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.thumbnail-icon {
+  background-color: #05a19c;
+  width: 5%;
+  height: 40%;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.carousel-item img {
+  margin: auto;
+}
+
+#web-projects {
+  padding: 2% 4%;
+}
+
+#web-projects h1{
+  color: #05a19c;
+  font-weight: bold;
+}
+
+.web-btn {
+  border: #103c42 solid 1px;
+  background-color: #05a19c;
+  color: #fff;
+  width: 200px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+#contact-me {
+  padding: 2% 4%;
+  background-color: #103c42;
+}
+
+#contact-me h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: #05a19c 2px 2px 3px;
+}
+
+.media {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.media-body {
+  margin: 15px;
+}
+
+.media-body h4 {
+  font-weight: bold;
+}
+
+.phone {
+  width: 100px;
+  margin: 15px;
+}
+
+.email {
+  width: 100px;
+  margin: 15px;
+}
+
+.resume {
+  width: 100px;
+  margin: 15px;
+}
+
+.resume-link {
+  color: #fff;
+  font-weight: bold;
+}
+
+.resume-link:hover {
+  color: #05a19c;
+}
+
+@media (max-width: 991px) {
+  #hero-index h1 {
+    font-size: 2rem;
+  }
+
+  #hero-email h1 {
+    margin: auto;
+  }
+
+  #hero-graphic-design h1 {
+    margin: auto;
+  }
+
+  .my-photo {
+    float: none;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 30px;
+    width: 250px;
+  }
+
+  .my-info {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin: 20px;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+
+  .card {
+    margin: 20px auto;
+    padding: auto;
+    height: auto;
+  }
+
+  .banner-icon {
+    width: 10%;
+    height: 55%;
+  }
+
+  .flyer-icon {
+    width: 10%;
+    height: 30%;
+  }
+
+  .poster-icon {
+    width: 10%;
+    height: 30%;
+  }
+
+  .thumbnail-icon {
+    width: 10%;
+    height: 25%;
+  }
+}
