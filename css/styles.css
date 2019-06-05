@@ -227,11 +227,11 @@ body {
 }
 
 .modal-content {
-  height: 95%;
+  height: 100%;
 }
 
 .modal-email {
-  height: 95%;
+  height: 100%;
 }
 
 #accordionExample {
@@ -287,7 +287,7 @@ body {
   padding: 2% 4%;
 }
 
-#web-projects h1{
+#web-projects h1 {
   color: #05a19c;
   font-weight: bold;
 }
@@ -313,17 +313,15 @@ body {
   text-shadow: #05a19c 2px 2px 3px;
 }
 
-.media {
-  color: #ffffff;
-  margin: 10px;
+#contact-me img {
+  display: block;
+  width: 100px;
+  margin: 20px auto;
 }
 
-.media-body {
-  margin: 15px;
-}
-
-.media-body h4 {
-  font-weight: bold;
+.contact-info {
+  text-align: center;
+  color: #fff;
 }
 
 .phone {
@@ -344,6 +342,8 @@ body {
 .resume-link {
   color: #fff;
   font-weight: bold;
+  text-align: center;
+  display: block;
 }
 
 .resume-link:hover {
