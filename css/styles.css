@@ -234,10 +234,6 @@ body {
   height: 100%;
 }
 
-iframe{
- overflow: scroll; 
-}
-
 #accordionExample {
   margin: 30px auto;
 }
