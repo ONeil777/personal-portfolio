@@ -222,18 +222,6 @@ body {
   text-shadow: #103c42 2px 2px 3px;
 }
 
-.modal-dialog {
-  height: 95%;
-}
-
-.modal-content {
-  height: 100%;
-}
-
-.modal-email {
-  height: 100%;
-}
-
 #accordionExample {
   margin: 30px auto;
 }
