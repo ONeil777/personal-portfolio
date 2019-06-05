@@ -230,6 +230,10 @@ body {
   height: 100%;
 }
 
+.modal-email{
+  height: 100%; 
+}
+
 #accordionExample {
   margin: 30px auto;
 }
