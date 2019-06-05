@@ -389,6 +389,11 @@ body {
     height: auto;
   }
   
+  iframe{
+   width: 100%;
+   height: 100%;
+  }
+  
   .banner-icon {
     width: 10%;
     height: 55%;
