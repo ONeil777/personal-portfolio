@@ -232,7 +232,6 @@ body {
 
 .modal-email {
   height: 100%;
-  overflow-y: scroll;
 }
 
 #accordionExample {
@@ -388,6 +387,10 @@ body {
     margin: 20px auto;
     padding: auto;
     height: auto;
+  }
+  
+  .modal-email{
+    height: auto; 
   }
 
   .banner-icon {
