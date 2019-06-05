@@ -222,6 +222,10 @@ body {
   text-shadow: #103c42 2px 2px 3px;
 }
 
+.modal {
+  overflow-y: auto;
+}
+
 .modal-dialog {
   height: 95%;
 }
@@ -387,18 +391,6 @@ body {
     margin: 20px auto;
     padding: auto;
     height: auto;
-  }
-
-  .modal-dialog {
-    height: 95%;
-  }
-
-  .modal-content {
-    height: 100%;
-  }
-
-  .modal-email {
-    height: 100%;
   }
 
   .banner-icon {
