@@ -389,6 +389,18 @@ body {
     height: auto;
   }
 
+  .modal-dialog {
+    height: 95%;
+  }
+
+  .modal-content {
+    height: 100%;
+  }
+
+  .modal-email {
+    height: 100%;
+  }
+
   .banner-icon {
     width: 10%;
     height: 55%;
