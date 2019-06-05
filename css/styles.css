@@ -222,10 +222,6 @@ body {
   text-shadow: #103c42 2px 2px 3px;
 }
 
-.modal {
-  overflow-y: scroll;
-}
-
 .modal-dialog {
   height: 95%;
 }
@@ -236,6 +232,7 @@ body {
 
 .modal-email {
   height: 100%;
+  overflow-y: scroll;
 }
 
 #accordionExample {
