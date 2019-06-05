@@ -230,6 +230,18 @@ body {
   margin: 0;
 }
 
+.modal-dialog {
+  height: 95%;
+}
+
+.modal-content{
+  height: 100%;
+}
+
+.embed-responsive {
+  height: 100%;
+}
+
 .btn-link {
   font-weight: bold;
   color: #05a19c;
