@@ -223,7 +223,7 @@ body {
 }
 
 .modal {
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .modal-dialog {
