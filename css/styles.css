@@ -230,11 +230,9 @@ body {
   height: 100%;
 }
 
-/*
 .modal-email {
   height: 100%;
 }
-*/
 
 #accordionExample {
   margin: 30px auto;
@@ -390,11 +388,11 @@ body {
     padding: auto;
     height: auto;
   }
-  /*
+ 
   .modal-email{
-    height: auto; 
+    height: 1000px; 
   }
-*/
+  
   .banner-icon {
     width: 10%;
     height: 55%;
