@@ -370,6 +370,11 @@ body {
   .nav-link {
     text-align: center;
   }
+  
+  .modal .modal-body {
+    max-height: 420px;
+    overflow-y: auto;
+   }
 
   .card {
     margin: 20px auto;
