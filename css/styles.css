@@ -389,12 +389,6 @@ body {
     height: auto;
   }
   
-  iframe{
-   width: 100%;
-   height: 100%;
-   max-height: 500px;
-  }
-  
   .banner-icon {
     width: 10%;
     height: 55%;
